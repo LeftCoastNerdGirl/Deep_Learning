@@ -8,7 +8,9 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 # Preprocess data
 
 -Use Pandas to import the csv file and create a dataframe.
+
 -Remove non-beneficial colums - EIN and NAME because they are attributes that do not affect success.
+
 -Used the dtypes.index and APPLICATION_TYPE. value_counts to get a better idea of the compositon of the data.
 -Used a cutoff value to create an "Other" category to group the smaller values.
 -Coverted categorical data to boolean columns using get_dummies.
